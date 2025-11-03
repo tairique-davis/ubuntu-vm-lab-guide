@@ -220,7 +220,7 @@ SSH allows encrypted remote access to the VM. We will harden SSH to reduce the a
 SSH is useful for the following reasons:
 - Installing SSH allows secure, encrypted remote administration of the VM
 - Disable root login: Root has unrestricted control. Consider disabling root login to follow the Principle of Least Privilege (PoLP) which defines that users only get the minimum permissions needed to execute tasks.
-- Disable password login: Passwords are more susceptible to brute-force attacks and credential theft.SSH key-based authentication uses public-key cryptography to provide stronger authentication
+- Disable password login: Passwords are more susceptible to brute-force attacks and credential theft. SSH key-based authentication uses public-key cryptography to provide stronger authentication
 
 #### Install and enable SSH
 ```bash
