@@ -168,6 +168,9 @@ sudo apt update && sudo apt upgrade -y
 ```
 
 This installs the latest security patches and software updates.
+<p>
+  <img src="https://github.com/user-attachments/assets/f3021e07-add9-4160-a7d9-be413c2a6bc3" width=45% />
+</p>
 
 ---
 
@@ -181,6 +184,9 @@ sudo usermod -aG sudo cyberlab
 ```
 
 This creates a user named `cyberlab` and grants administrator privileges.
+<p>
+ <img src="https://github.com/user-attachments/assets/7f94c323-c5e7-45d9-a48d-ee5725b8e4a7" width=45% />
+</p>
 
 ---
 
