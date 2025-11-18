@@ -274,4 +274,4 @@ sudo systemctl restart ssh   #restarts SSH to apply the new security config
 <img src="https://github.com/user-attachments/assets/d6c2fa25-18b1-496c-8fb4-6c3666880889" width=60%/>
 
 ---
-Your Virtual Machine is now ready for use as a safe environment to learn Linux and begin practicing cybersecurity!
+Your Virtual Machine is now ready for use as a safe environment to learn Linux and begin practicing security tools!
