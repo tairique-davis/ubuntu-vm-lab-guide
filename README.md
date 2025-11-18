@@ -201,6 +201,9 @@ sudo ufw status
 ```
 
 UFW helps protect your system from unwanted network access.
+<p>
+ <img src="https://github.com/user-attachments/assets/f9202e83-db90-4097-af77-5cfef6bdd2c1" width=45% />
+</p>
 
 ---
 
@@ -213,6 +216,11 @@ A snapshot allows you to save the current state of your VM. You can return to th
 3. Go to **Snapshots**.
 4. Click **Take Snapshot**.
 5. Name it: `linux_vm_secure`
+
+<p>
+ <img src="https://github.com/user-attachments/assets/3a50422d-f039-44dc-91a7-17ff79aa8073" width=45% />
+ <img src="https://github.com/user-attachments/assets/52a545dd-226d-45ae-bc57-f3442c27c09b" width=45% />
+</p>
 
 ---
 ## 🧩 Optional: Additional Security Hardening
@@ -234,24 +242,36 @@ sudo apt install openssh-server -y
 sudo systemctl enable ssh
 sudo systemctl status ssh
 ```
+<p>
+<img src="https://github.com/user-attachments/assets/8d7cb280-9d3a-4e53-a2b3-e1fb1b64f91a" width=50% />
+<img src="https://github.com/user-attachments/assets/6fdca4ab-081f-4405-a185-eb45950c2097" width=50% />
+
+</p>
 
 #### Edit SSH configuration:
 
 ```bash
 sudo nano /etc/ssh/sshd_config
 ```
+<p>
+   <img src="https://github.com/user-attachments/assets/db07c18d-a2d6-46a2-9edf-041cc73fa0f9" width=60%/>
+</p>
+
+
 
 #### Set the following values to disable Root Login:
 
 ```
 PermitRootLogin no      #disables direct root login to enforce PolP
-PasswordAuthentication no
 ```
+<img width=60% src="https://github.com/user-attachments/assets/4a2b91d5-23e4-4233-a451-e7c16c9eac4d" />
 
 #### Save and apply changes:
 
 ```bash
 sudo systemctl restart ssh   #restarts SSH to apply the new security config
 ```
+<img src="https://github.com/user-attachments/assets/d6c2fa25-18b1-496c-8fb4-6c3666880889" width=60%/>
+
 ---
 Your Virtual Machine is now ready for use as a safe environment to learn Linux and begin practicing cybersecurity!
