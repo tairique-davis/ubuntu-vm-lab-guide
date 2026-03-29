@@ -1,8 +1,5 @@
 # Ubuntu 24.04 Virtual Machine Setup & Basic Security Hardening
 
-This guide provides step-by-step instructions for creating and securing an Ubuntu 24.04 virtual machine using VirtualBox. 
-
----
 ##  Objectives
 
 - Demonstrate knowledge in key virtualization concepts
