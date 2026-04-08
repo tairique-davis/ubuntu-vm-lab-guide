@@ -1,12 +1,26 @@
 # Ubuntu 24.04 Virtual Machine Setup & Basic Security Hardening
 
+---
+## Overview
+
+This project focuses on building and hardening an Ubuntu 24.04 virtual machine to serve as a secure, repeatable baseline for cybersecurity labs and testing environments.
+
+Rather than just deploying a virtual machine, the goal was to establish a controlled system with foundational security measures in place. This includes enforcing least-privilege access, configuring firewall rules, hardening SSH, and using snapshots to preserve a known-good state.
+
+This hardened VM acts as a reliable starting point for future security work, including offensive testing, network analysis, and lab experimentation.
+
+---
 ##  Objectives
 
-- Demonstrate knowledge in key virtualization concepts
-- Enable and verify hardware-assisted virtualization (SVM) in BIOS
-- Install and Configure a Type 2 Hypervisor
-- Create, configure, and install Ubuntu 24.04.3 LTS as a virtual machine
-- Set up a safe and stable environment for learning Linux and future cybersecurity labs with basic security hardening
+- Configure a virtualized environment using a Type 2 hypervisor (VirtualBox)
+- Deploy Ubuntu 24.04.3 LTS as a guest operating system
+- Apply baseline security hardening:
+- System updates and patching
+- Least-privilege user configuration
+- UFW firewall setup
+- SSH configuration and access control
+- Implement snapshot-based state management for repeatability
+- Create a stable and isolated environment for cybersecurity labs
 
 ---
 ## ✅ Prerequisites
